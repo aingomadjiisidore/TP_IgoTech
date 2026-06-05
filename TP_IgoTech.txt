@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IgoTech - Portfolio Agence Digitale</title>
+    <!-- On liera notre fichier CSS ici plus tard -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. EN-TÊTE ET MENU DE NAVIGATION -->
+    <header>
+        <div class="logo">IgoTech</div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#temoignages">Témoignages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 2. SECTION ACCUEIL (HERO) -->
+    <section id="accueil" class="hero">
+        <h1>Propulsez votre présence digitale avec IgoTech</h1>
+        <p>Nous créons des expériences numériques uniques pour booster votre entreprise.</p>
+        <a href="#contact" class="btn">Discutons de votre projet</a>
+    </section>
+
+    <!-- 3. SECTION SERVICES -->
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="services-grille">
+            <div class="service-carte">
+                <h3>Création Web</h3>
+                <p>Des sites web modernes, rapides et adaptés à tous les écrans.</p>
+            </div>
+            <div class="service-carte">
+                <h3>Réseaux Sociaux</h3>
+                <p>Gestion et animation de vos communautés pour booster votre visibilité.</p>
+            </div>
+            <div class="service-carte">
+                <h3>Contenu Visuel</h3>
+                <p>Création de graphismes et de designs uniques pour votre marque.</p>
+            </div>
+            <div class="service-carte">
+                <h3>Marketing Digital</h3>
+                <p>Campagnes publicitaires ciblées pour attirer de nouveaux clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SECTION PORTFOLIO (PROJETS) -->
+    <section id="portfolio">
+        <h2>Nos Réalisations</h2>
+        <div class="portfolio-grille">
+            <!-- Projet 1 -->
+            <div class="projet-carte">
+                <div class="projet-image">[ Image Projet 1 ]</div>
+                <h3>E-Commerce "BLACKshop"</h3>
+                <p>Création complète d'une boutique en ligne moderne.</p>
+            </div>
+            <!-- Projet 2 -->
+            <div class="projet-carte">
+                <div class="projet-image">[ Image Projet 2 ]</div>
+                <h3>Campagne "Digit Check"</h3>
+                <p>Stratégie de communication et visuels sur les réseaux sociaux.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SECTION TÉMOIGNAGES -->
+    <section id="temoignages">
+        <h2>Ce que disent nos clients</h2>
+        <div class="temoignages-conteneur">
+            <div class="temoignage-carte">
+                <p>"L'équipe d'IgoTech a complètement transformé notre image en ligne. Professionnels et rapides !"</p>
+                <h4>- Client Satisfait</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SECTION CONTACT (FORMULAIRE) -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Un projet ? Une question ? Écrivez-nous directement.</p>
+        
+        <form action="#" method="POST" class="form-contact">
+            <input type="text" name="nom" placeholder="Votre nom complet" required>
+            <input type="email" name="email" placeholder="Votre adresse e-mail" required>
+            <input type="text" name="objet" placeholder="Objet de votre message" required>
+            <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+            <button type="submit" class="btn">Envoyer le message</button>
+        </form>
+    </section>
+
+    <!-- PIED DE PAGE -->
+    <footer>
+        <p>&copy; 2026 IgoTech - Tous droits réservés. Réalisé pour le TP Génie Logiciel.</p>
+    </footer>
+
+</body>
+</html>
